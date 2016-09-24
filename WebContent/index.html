@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"/>
+
+<link href=" css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/dictionary.js" type="text/javascript"></script>
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<title>Online Dictionary</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+		
+			<h1><span>Online Dictionary</span>
+				Web Application Programming
+			</h1>
+		</header>
+		<section>
+		<div id="wrapper">
+		
+		<div class="searchwrapper"><span class="lbl">Search Option</span><select
+						id="select" class="choose"><option value="local">Local Server</option>
+						<option value="server">Merriam Webster</option></select> <input type="text" name="search" class="searchField" id="txtSearch"
+				placeholder="Enter Search Text" /> 
+				<input type="submit" id="btnSearch" value="Search" />
+				</div>
+		</div>
+
+<img src="images/progress.gif" id="loader" alt="loading"/>
+		<div id="result"></div>
+		
+		</section>
+	</div>
+	<!--  <div class="footer">
+            <a href="http://validator.w3.org/check/referer">
+                <img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="html validator"/>
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="css validator"/>
+            </a>
+            <a href="http://mumstudents.org/jshint/referer.php">
+                <img src="http://mumstudents.org/jshint/jshint-small.png" alt="js validator"/>
+            </a>
+        </div>  -->
+</body>
+</html>

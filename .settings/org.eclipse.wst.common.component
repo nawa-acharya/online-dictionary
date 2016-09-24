@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Online-Dictionary">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="java-json-schema.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/java-json-schema/java-json-schema">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.4-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.2.4-sources/gson-2.2.4-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-simple-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json-simple-1.1.1/json-simple-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.39-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.39-bin/mysql-connector-java-5.1.39-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.4-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.2.4-javadoc/gson-2.2.4-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.2.4/gson-2.2.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Online-Dictionary"/>
+        <property name="java-output-path" value="/Online-Dictionary/build/classes"/>
+    </wb-module>
+</project-modules>
